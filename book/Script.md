@@ -71,3 +71,14 @@ $.ajax({
 |success|处理成功函数|
 |error|处理失败函数|
 
+#### iframe 高度自适应
+``` js
+var iframeHeight = 62;
+        function changeFrameHeight() {
+            var ifm = document.getElementById("iframepage");
+            ifm.height = document.documentElement.clientHeight - iframeHeight;
+        }
+        window.onresize = function () { changeFrameHeight(); }
+        $(function () { changeFrameHeight(); });
+```
+
