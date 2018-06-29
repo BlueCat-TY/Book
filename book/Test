@@ -1,0 +1,29 @@
+<style>
+    *{
+        font-family:'microsoft yahei';
+    }
+    .mark{
+        padding:0 5px;
+        margin:0 5px;
+        background:#ebebeb;
+        border-radius:3px;
+    }
+</style>
+#### 2018-6-29 10:47:42 
+### 工作周报（2018-6-25 至 2018-6-29）
+#### 周一
+- 开始阅览<span class="mark" style="color:green;">GTS</span>开发需要的一些文档，以及查看代码逻辑，定位问题点位置。
+#### 周三
+- 修改当主管签核时候，查看部门差旅申请单，需要加入时间限制，限制为今年
+- 资源系统提供的<span class="mark" style="color:blue;">WebService</span> 调整，当传入开始时间和结束时间，只按开始时间查询当天。
+#### 周四
+- Form359 合理票价区间文字显示异常。语言显示错乱。
+- 差旅结案页面，没有显示报销按钮，经过排查，默认显示保险按钮，只有当申请类型为“厂商”时，需要自行选择是否报销，如果否，就不显示。
+- 住宿申请单单页面添加文字说明。
+- ><span style="color:red;">*补充说明：因期间一些测试环境未配好（需要配合）导致无法测试，无法定位问题。*</span>
+#### 周五
+- 419表单申请页面，文件上传出错，<span class="mark" style="color:blue;">WebService</span> 借口异常，更改为<span class="mark" style="color:blue;">WCF</span>上传方式，调整上传，删除，查看方法。
+- 旅行社得标未发送邮件，问题排查中。
+
+
+
