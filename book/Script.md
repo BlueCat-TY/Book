@@ -7,26 +7,13 @@ obj.siblings();
 ```js
 Math.min.apply(null, arr);
 ```
-#### 3. 转换成json字符串
-```js
-JSON.stringify(arrlist);
-```
-#### 4. 禁用移动端滚动条滚动
-```js
-//禁用
-$('body').bind("touchmove", function (e) {
-    e.preventDefault();
-});
-//解除
-$('body').unbind("touchmove");
-```
-#### 5. 获取范围内随机数
+#### 3. 获取范围内随机数
 ```js
 function random(min, max) {
     return Math.floor(min + Math.random() * (max - min));
 }
 ```
-#### 6. js截取URL字段值
+#### 4. js截取URL字段值
 ```js
 //getQueryString("id");
 function getQueryString(name) {
@@ -35,8 +22,8 @@ function getQueryString(name) {
     if (r != null) return unescape(r[2]); return "";
 }
 ```
-#### 7. 基本语法
-##### 7. 1
+#### 5. 基本语法
+##### 5. 1
 ```js
 $.ajax({
     type: "post",
@@ -71,7 +58,7 @@ $.ajax({
 |success|处理成功函数|
 |error|处理失败函数|
 
-#### iframe 高度自适应
+#### 6.iframe 高度自适应
 ``` js
 var iframeHeight = 62;
         function changeFrameHeight() {
