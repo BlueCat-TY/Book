@@ -39,7 +39,7 @@ $.ajax({
     success: function (data) {
         console.log("成功!");
     },
-    err: function (xhr, textStatus,error) {
+    error: function (xhr, textStatus,error) {
         console.log("失败:"+xhr.status+"|"+xhr.readyState+"|"+textStatus);
     }
 });
