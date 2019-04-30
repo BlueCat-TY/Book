@@ -41,6 +41,9 @@ $.ajax({
     },
     error: function (xhr, textStatus,error) {
         console.log("失败:"+xhr.status+"|"+xhr.readyState+"|"+textStatus);
+    },
+    complete: function () {
+        console.log("请求完成事件");
     }
 });
 ```
