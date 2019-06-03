@@ -71,3 +71,8 @@ declare @size int = 10
 @jieguo=3
 
 ```
+
+#### 7. Sql Server 取出自增列最大ID
+```sql
+select ident_current('表名') as 自定义别名
+```
