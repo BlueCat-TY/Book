@@ -39,22 +39,3 @@ div {
     word-spacing: 10px;
 }
 ```
-
-### 6. Flex 布局
-* box
-```css
-.flexbox{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-```
-* item
-``` css
-.flexitem{
-    width: 0 !important;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 0 auto;
-    flex: 1 0 auto;
-}
-```
