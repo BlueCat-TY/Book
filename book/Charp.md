@@ -10,3 +10,8 @@
   
   string rooturl = HostingEnvironment.MapPath("~/");
 ```
+
+#### 2. List根据字段属性去重
+``` charp
+    List<T> listresult = List.Where((x,i)=>List.FindIndex(z=>z.SYS_ID==x.SYS_ID)==i).ToList();
+```
